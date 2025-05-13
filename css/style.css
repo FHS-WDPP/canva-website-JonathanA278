@@ -85,3 +85,146 @@
     border-radius: 8px;
     }
     
+    /* header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+} */
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.slide-number {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.contact-body, .portfolio-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+.contact .left {
+  flex: 1;
+}
+
+.contact .right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.contact .right img {
+  width: 60%;
+  max-width: 300px;
+}
+
+h4 {
+  font-weight: normal;
+  margin: 20px 0 5px;
+}
+
+.phone, .email {
+  font-size: 2rem;
+}
+
+.portfolio .caption {
+  margin-top: 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.date {
+  margin-top: 10px;
+  font-weight: bold;
+} 
+
+.portfolio .images {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0 40px;
+}
+
+.portfolio .main-image {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 10px;
+}
+/* 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.slide-number {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.contact-body, .portfolio-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+.contact .left {
+  flex: 1;
+}
+
+.contact .right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.contact .right img {
+  width: 60%;
+  max-width: 300px;
+}
+
+h4 {
+  font-weight: normal;
+  margin: 20px 0 5px;
+}
+
+.phone, .email {
+  font-size: 2rem;
+}
+
+.portfolio .images {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0 40px;
+}
+
+.portfolio .main-image {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 10px;
+}
+
+.portfolio .caption {
+  margin-top: 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.date {
+  margin-top: 10px;
+  font-weight: bold;
+} */
